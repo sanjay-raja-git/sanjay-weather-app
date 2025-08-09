@@ -480,7 +480,7 @@ export default function App() {
               </p>
             )}
 
-            {/* Wind Speed */}
+          
             <p className="text-lg flex items-center justify-center gap-2 mt-3 select-text">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
