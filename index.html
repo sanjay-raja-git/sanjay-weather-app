@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="app\src\image.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+
+          @keyframes oscillate {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(6px); }
+          }
+          .oscillate {
+            animation: oscillate 3s ease-in-out infinite;
+          }
+        
+</style>
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
